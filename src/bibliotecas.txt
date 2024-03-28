@@ -1,0 +1,5 @@
+numpy
+cv2
+joblib
+sklearn
+os
