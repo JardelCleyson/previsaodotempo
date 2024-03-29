@@ -4,11 +4,13 @@ O projeto é um sistema de previsão de chuva com base em imagens de radar meteo
 Como Funciona:
 
 Treinamento do Modelo:
+As imagens são provenientes do site: https://satelite.inmet.gov.br/ são publicas e gratuitas, foram feito downloads de dias e horarios aleatorios, onde a cobertura de nuvens foi o parametro de decisão no grupo de treinamento
 
 O projeto começa carregando imagens de radar meteorológico e seus rótulos (indicando se houve ou não chuva).
 Essas imagens são pré-processadas, redimensionadas e transformadas em um formato adequado para alimentar o modelo.
 Um modelo de classificação SVM é treinado usando essas imagens como entrada e seus rótulos correspondentes como saída.
 Carregamento do Modelo Treinado:
+
 
 Após o treinamento, o modelo SVM treinado é salvo em um arquivo.
 Previsão de Chuva:
