@@ -50,7 +50,7 @@ if __name__ == "__main__":
     if imagem is not None:
         # Fazer a previsão da possibilidade de chuva
         possibilidade_chuva = prever_possibilidade_chuva(modelo, imagem)
-        if possibilidade_chuva <= 35:
+        if possibilidade_chuva <= 33:
             print("Não há previsão de chuva.")
         else:
             print("Existe a possibilidade de chuva.")
