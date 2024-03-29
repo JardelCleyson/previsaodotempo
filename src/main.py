@@ -45,7 +45,7 @@ if __name__ == "__main__":
     modelo = carregar_modelo()
     precisao = treinar_modelo()
     # Carregar a imagem para fazer a previsão
-    caminho_imagem = './teste4.jpg'  # Atualize com o caminho para a imagem que deseja testar
+    caminho_imagem = './download.jpg'  # Atualize com o caminho para a imagem que deseja testar
     imagem = carregar_imagem(caminho_imagem)
     if imagem is not None:
         # Fazer a previsão da possibilidade de chuva
